@@ -1,0 +1,55 @@
+<div class="science-app" data-app-name="file-upload-test-app">
+  <h2>File Upload Test App</h2>
+
+  <div class="row">
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">input[type="file"] uploads</h3>
+        </div>
+        <div class="panel-body">
+          <form name="input-file-upload-form">
+            <div class="form-group">
+              <label for="fileToUpload">Choose file</label>
+              <input class="form-control" type="file" name="fileToUpload" id="fileToUpload">
+            </div>
+
+            <button type="submit" class="btn btn-primary">Upload</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="input-file-response hide">
+        <h3>Response</h3>
+        <pre></pre>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h3 class="panel-title">HTML Blob uploads</h3>
+        </div>
+        <div class="panel-body">
+          <form name="blob-upload-form">
+            <div class="form-group">
+              <label for="fileName">Enter file name</label>
+              <input class="form-control" name="fileName" id="fileName" type="text">
+            </div>
+            <div class="form-group">
+              <label for="fileData">Enter file data</label>
+              <textarea class="form-control" name="fileData" id="fileData"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Upload</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="blob-response hide">
+        <h3>Response</h3>
+        <pre></pre>
+      </div>
+    </div>
+  </div>
+</div>
